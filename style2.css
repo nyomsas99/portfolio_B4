@@ -24,6 +24,7 @@ footer {
   background-attachment: fixed;
   background-position: 0 -140px;
   overflow: hidden;
+  background-repeat: no-repeat;
   position: relative;
 }
 .checkbox {
