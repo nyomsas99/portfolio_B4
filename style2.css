@@ -17,7 +17,6 @@ footer {
   width: 100%;
 }
 .jumbotron {
-  height: 100%;
   width: 100%;
   background-image: url(./image/gb22.jpg);
   background-size: cover;
@@ -25,7 +24,7 @@ footer {
   background-position: 0 -140px;
   overflow: hidden;
   background-repeat: no-repeat;
-  position: relative;
+  /* position: relative; */
 }
 .checkbox {
   opacity: 0;
