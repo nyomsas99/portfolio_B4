@@ -7,6 +7,10 @@ body {
   background-size: cover;
   background-repeat: no-repeat; */
   background: #ffffff;
+  /* display: flex; */
+
+  /* background-image: url("./image/bg.jpg");
+  background-size: cover; */
 }
 
 #education {
@@ -36,6 +40,19 @@ footer {
   /* background-image: linear-gradient(#0c97fa, #16e1f5); */
   background-image: linear-gradient(#f4d03f, #16a085);
 }
+section {
+  padding-top: 5rem;
+}
+.display {
+  margin: 0;
+  font-weight: 900;
+  background: url("./image/galaxy1.jpg");
+  background-size: 40%;
+  background-position: 50% 50%;
+  -webkit-background-clip: text;
+  color: rgba(0, 0, 0, 0.08);
+  animation: zoom 10s ease 500ms forwards;
+}
 .jumbotron {
   width: 100%;
   background-image: url(./image/glxy2.jpg);
@@ -44,7 +61,8 @@ footer {
   background-position: 0 -140px;
   overflow: hidden;
   background-repeat: no-repeat;
-
+  height: 400px;
+  margin-top: -80px;
   position: relative;
 }
 .checkbox {
